@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from "swiper";
 import 'swiper/css';
 import "swiper/css/pagination";
+import Standings from '../Standings/Standings';
 
 const Main = () => {
 
@@ -43,6 +44,12 @@ const Main = () => {
                 <img src="image_1.jpg" alt="" />
               </SwiperSlide>
             </Swiper>
+          </div>
+          <div className='flex'>
+            <div>
+              <h3>Турнирная таблица: Первенство Казахстана</h3>
+              <Standings />
+            </div>
           </div>
         </div>
       </div>
