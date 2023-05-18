@@ -1,0 +1,55 @@
+.standings {
+  background-color: #fff;
+  width: 770px;
+  padding: 24px;
+  border-radius: 30px;
+  table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    tr {
+      border-radius: 14px;
+      &:nth-child(odd):not(:first-child) {
+        background: #F5F7FF;
+      }
+      &:first-child {
+        border-bottom: 2px solid #E9E9EF;
+      }
+      th, td {
+        padding: 14px;
+        padding: 15px 25px;
+        text-align: center;
+        font-family: 'Gilroy-Medium';
+        font-weight: 400;
+        &:first-child {
+          font-family: 'Gilroy-SemiBold';
+          text-align: left;
+        }
+      }
+      th:not(:first-child) {
+        color: #A8ADB7;
+      }
+      td {
+        .tShirt {
+          width: 42px;
+          height: 44px;
+          margin: 0 20px;
+          display: inline-block;
+        }
+        &:not(:first-child) {
+          font-size: 14px;
+        }
+        &:nth-last-child(2) {
+          border-left: 2px solid #E9E9EF;
+        }
+      }
+      td:first-child {
+        border-radius: 10px 0 0 10px;
+      }
+      td:last-child {
+        border-radius: 0 10px 10px 0;
+      }
+    }
+  }
+}

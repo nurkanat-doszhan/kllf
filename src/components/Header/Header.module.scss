@@ -69,6 +69,7 @@
           border: 1px solid #535353;
           border-radius: 8px;
           overflow: hidden;
+          z-index: 5;
           animation: citiesDropdownAnimation 0.5s;
           @keyframes citiesDropdownAnimation {
             0%{
