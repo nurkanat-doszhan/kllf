@@ -1,5 +1,7 @@
 .section {
+  padding: 32px 0;
   background-color: #edf1ff;
+
   .inner {
     .wrap {
       display: flex;
@@ -8,24 +10,30 @@
       align-items: center;
       max-width: 1170px;
       margin: 0 auto;
-      h2 {
+
+      h1 {
         text-transform: uppercase;
         font-family: 'Gilroy-Bold';
-        margin-top: 64px;
+        font-size: 24px;
         margin-bottom: 24px;
       }
+
       .flex {
         width: 100%;
         display: flex;
         align-items: flex-start;
+
         .swiper {
           margin-left: 30px;
+
           .swiper-slide {
             position: relative;
+
             img {
               border-radius: 30px;
               width: 100%;
             }
+
             .text {
               text-transform: uppercase;
               color: #fff;
@@ -37,6 +45,7 @@
               transform: translateX(-50%);
             }
           }
+
           .swiper-pagination {
             width: auto;
             left: 50%;
@@ -47,21 +56,18 @@
             transform: translateX(-50%);
             border-radius: 50px;
             background-color: #ffffff9c;
+
             .swiper-pagination-bullet {
               width: 10px;
               height: 10px;
               background-color: #FFF;
               opacity: 1;
+
               &.swiper-pagination-bullet-active {
                 background-color: #613CEA;
               }
             }
           }
-        }
-        h3 {
-          margin: 64px 0 24px 0;
-          text-align: center;
-          text-transform: uppercase;
         }
       }
     }

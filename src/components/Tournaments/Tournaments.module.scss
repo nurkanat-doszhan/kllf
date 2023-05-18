@@ -1,0 +1,81 @@
+.tournaments {
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+  .currentGame {
+    padding: 14px;
+    border-radius: 20px;
+    background-color: #F5F7FF;
+    .textLive {
+      color: #ff0000;
+      font-family: 'Gilroy-SemiBold';
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .textLeague {
+      font-size: 14px;
+    }
+    .teams {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      .team1, .team2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        svg {
+          box-shadow: 0 0 14px #0000004d;
+          padding: 10px;
+          width: 60px;
+          height: 60px;
+          background: #F2F2F7;
+          border-radius: 50px;
+        }
+        p {
+          font-family: 'Gilroy-SemiBold';
+        }
+      }
+      .table {
+        text-align: center;
+        .score {
+          color: #A8ADB7;
+          font-size: 28px;
+          font-family: 'Gilroy-SemiBold';
+        }
+        p {
+          font-size: 12px;
+          color: #A8ADB7;
+        }
+      }
+      // .tShirt {
+
+      // }
+      // .team2 {
+
+      // }
+    }
+    .more {
+      position: relative;
+      margin-top: 14px;
+      font-family: 'Gilroy-SemiBold';
+      cursor: pointer;
+      padding-top: 14px;
+      text-align: center;
+      &:hover {
+        text-decoration: underline;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -14px;
+        background-color: #fff;
+        width: calc(100% + 28px);
+        height: 4px;
+      }
+    }
+  }
+}
