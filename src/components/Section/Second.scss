@@ -1,0 +1,37 @@
+.section {
+  padding: 32px 0;
+  background-color: #edf1ff;
+
+  .inner {
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1170px;
+      margin: 0 auto;
+
+      .flex {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        .left {
+          width: 70%;
+          box-sizing: border-box;
+        }
+        .right {
+          margin-left: 30px;
+          width: calc(30% - 30px);
+          box-sizing: border-box;
+        }
+      }
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 24px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
