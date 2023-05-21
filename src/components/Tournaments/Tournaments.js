@@ -1,3 +1,4 @@
+import Calendar1 from '../Calendar/Calendar';
 import styles from './Tournaments.module.scss'
 
 const Tournaments = () => {
@@ -57,7 +58,7 @@ const Tournaments = () => {
         </div>
         <div className={ styles.more }>Подробнее</div>
       </div>
-      <h2>Calendar</h2>
+      <Calendar1 />
     </div>
   )
 }

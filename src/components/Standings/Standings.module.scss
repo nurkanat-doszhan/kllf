@@ -10,15 +10,15 @@
     border-collapse: collapse;
     width: 100%;
 
+    thead {
+      border-bottom: 2px solid #E9E9EF;
+    }
+
     tr {
       border-radius: 14px;
 
-      &:nth-child(odd):not(:first-child) {
+      &:nth-child(even):not(:first-child) {
         background: #F5F7FF;
-      }
-
-      &:first-child {
-        border-bottom: 2px solid #E9E9EF;
       }
 
       th,

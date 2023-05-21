@@ -44,7 +44,57 @@ const Standings = () => {
       i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
     },
     {
-      id: 4,
+      id: 5,
+      tShirtColor: '#a458cc',
+      name: 'Торговый дом Есиль',
+      progress: {
+        current: 6,
+        max: 18
+      },
+      i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
+    },
+    {
+      id: 6,
+      tShirtColor: '#a458cc',
+      name: 'Торговый дом Есиль',
+      progress: {
+        current: 6,
+        max: 18
+      },
+      i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
+    },
+    {
+      id: 7,
+      tShirtColor: '#a458cc',
+      name: 'Торговый дом Есиль',
+      progress: {
+        current: 6,
+        max: 18
+      },
+      i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
+    },
+    {
+      id: 8,
+      tShirtColor: '#a458cc',
+      name: 'Торговый дом Есиль',
+      progress: {
+        current: 6,
+        max: 18
+      },
+      i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
+    },
+    {
+      id: 9,
+      tShirtColor: '#a458cc',
+      name: 'Торговый дом Есиль',
+      progress: {
+        current: 6,
+        max: 18
+      },
+      i: 18, v: 13, n: 0, p: 5, m: '80-71', o: 39
+    },
+    {
+      id: 10,
       tShirtColor: '#a458cc',
       name: 'Торговый дом Есиль',
       progress: {
