@@ -32,29 +32,30 @@ const Tournaments = () => {
         <div className={ styles.more }>Подробнее</div>
       </div>
       <div className={ styles.result }>
-        <p>Результаты 3 тура</p>
-        <p>Четверг, 28 Апреля, 2022</p>
+        <p className={ styles.resultText }>Результаты 3 тура</p>
+        <p className={ styles.date }>Четверг, 28 Апреля, 2022</p>
         <div className={ styles.game }>
           <div className={ styles.team1 }>Alash</div>
             <div className={ styles.score }>
-              <span>3</span>:<span>2</span>
+              <span style={{ color: '#613CEA' }}>3</span>:<span style={{ color: '#000' }}>2</span>
             </div>
-          <div className={ styles.team1 }>Nurtas</div>
+          <div className={ styles.team2 }>Nurtas</div>
         </div>
         <div className={ styles.game }>
           <div className={ styles.team1 }>Allur Qostanai</div>
             <div className={ styles.score }>
-              <span>1</span>:<span>2</span>
+              <span style={{ color: '#000' }}>1</span>:<span style={{ color: '#613CEA' }}>2</span>
             </div>
-          <div className={ styles.team1 }>QURMAN</div>
+          <div className={ styles.team2 }>QURMAN</div>
         </div>
         <div className={ styles.game }>
           <div className={ styles.team1 }>Alash</div>
             <div className={ styles.score }>
-              <span>1</span>:<span>0</span>
+              <span style={{ color: '#613CEA' }}>1</span>:<span style={{ color: '#000' }}>0</span>
             </div>
-          <div className={ styles.team1 }>Казахтелеком</div>
+          <div className={ styles.team2 }>Казахтелеком</div>
         </div>
+        <div className={ styles.more }>Подробнее</div>
       </div>
       <h2>Calendar</h2>
     </div>
