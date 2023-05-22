@@ -5,11 +5,11 @@
   width: 100%;
   .more {
     position: relative;
-    margin-top: 14px;
+    margin-top: 11px;
     font-family: 'Gilroy-SemiBold';
-    cursor: pointer;
     padding-top: 14px;
     text-align: center;
+    cursor: pointer;
     &:hover {
       text-decoration: underline;
     }
@@ -38,7 +38,7 @@
       font-size: 14px;
     }
     .teams {
-      margin-top: 20px;
+      margin-top: 15px;
       display: flex;
       justify-content: space-between;
       .team1, .team2 {
@@ -88,7 +88,7 @@
     .date {
       font-family: 'Gilroy-Medium';
       font-size: 14px;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
     }
 
     .game {
