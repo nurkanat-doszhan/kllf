@@ -1,4 +1,5 @@
 import News from "../../components/News/News"
+import Pwi from "../Pwi/Pwi"
 import styles from './NewsAndPWI.module.scss'
 
 const NewsAndPWI = () => {
@@ -13,7 +14,7 @@ const NewsAndPWI = () => {
             </div>
             <div className={styles.right}>
               <h2>Игроки с травмами</h2>
-              
+              <Pwi />
             </div>
           </div>
         </div>
