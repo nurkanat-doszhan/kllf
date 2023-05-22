@@ -6,7 +6,9 @@ import './Calendar.scss'
 const Calendar1 = () => {
   const [value, onChange] = useState(new Date());
   return (
-    <Calendar onChange={onChange} value={value} />
+    <>
+      <Calendar onChange={onChange} value={value} />
+    </>
   )
 }
 

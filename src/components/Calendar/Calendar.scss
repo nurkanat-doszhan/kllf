@@ -2,4 +2,42 @@
   padding: 14px;
   border-radius: 20px;
   background-color: #F5F7FF;
+  border: none;
+  .react-calendar__navigation {
+    display: none;
+  }
+  .react-calendar__viewContainer {
+    position: relative;
+    &::before {
+      content: 'Календарь';
+      font-family: 'Gilroy-SemiBold';
+      position: absolute;
+      top: -5px;
+    }
+    .react-calendar__month-view {
+      padding-top: 22px;
+      .react-calendar__tile {
+        width: 30px;
+        height: 30px;
+        flex: 0 0 30px !important;
+        border: 1px solid #d8d8d8;
+        margin: 7px;
+        border-radius: 10px;
+        padding: 0;
+        &.react-calendar__month-view__days__day--neighboringMonth {
+          border: none;
+          color: #A8ADB7;
+        }
+        &:nth-child(-n + 7) {
+          margin-top: 0;
+        }
+        &:nth-last-child(-n + 7) {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .react-calendar__month-view__weekdays {
+      display: none !important;
+    }
+  }
 }
