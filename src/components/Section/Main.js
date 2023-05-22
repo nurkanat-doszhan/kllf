@@ -11,7 +11,7 @@ const Main = () => {
     <div className="section">
       <div className="inner">
         <div className="wrap">
-          <h2>Первенство казахстана по футзалу</h2>
+          <h1>Первенство казахстана по футзалу</h1>
           <div className="flex">
             <SuperLeague />
             <Swiper

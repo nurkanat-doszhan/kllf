@@ -8,11 +8,11 @@ const Second = () => {
       <div className="inner">
         <div className="wrap">
           <div className="flex">
-            <div class="left">
+            <div className="left">
               <h2>Турнирная таблица: Первенство Казахстана</h2>
               <Standings />
             </div>
-            <div class="right">
+            <div className="right">
               <h2>Турниры</h2>
               <Tournaments />
             </div>

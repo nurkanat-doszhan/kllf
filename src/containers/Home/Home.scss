@@ -15,8 +15,14 @@
         text-transform: uppercase;
         font-family: 'Gilroy-Bold';
         font-size: 24px;
-        margin-top: 0;
         margin-bottom: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 24px;
+        text-align: center;
+        text-transform: uppercase;
       }
 
       .flex {
@@ -69,6 +75,17 @@
               }
             }
           }
+        }
+
+        .left {
+          width: 66%;
+          box-sizing: border-box;
+        }
+
+        .right {
+          margin-left: 30px;
+          width: calc(34% - 30px);
+          box-sizing: border-box;
         }
       }
     }
