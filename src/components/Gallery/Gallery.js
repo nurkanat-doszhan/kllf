@@ -1,7 +1,7 @@
 import './Gallery.scss'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Navigation } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/css/navigation";
 
 const Gallery = () => {
@@ -16,8 +16,11 @@ const Gallery = () => {
               centeredSlides={true}
               spaceBetween={10}
               loop={true}
-              navigation={true}
-              modules={[Navigation]}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
               className="swiperGallery"
             >
               <SwiperSlide>
@@ -36,27 +39,6 @@ const Gallery = () => {
                 <img src="gal_1.jpg" alt="" />
               </SwiperSlide>
             </Swiper>
-            {/*<Swiper
-              className="swiperGallery"
-              modules={[Pagination]}
-              spaceBetween={25}
-              slidesPerView={3}
-              loop={true}
-              pagination={{ clickable: true }}
-            >
-              {/* <SwiperSlide>
-                <img src="gal_1.jpg" alt="" />
-              </SwiperSlide> 
-              <SwiperSlide>Slide 1</SwiperSlide>
-              <SwiperSlide>Slide 2</SwiperSlide>
-              <SwiperSlide>Slide 3</SwiperSlide>
-              <SwiperSlide>Slide 4</SwiperSlide>
-              <SwiperSlide>Slide 5</SwiperSlide>
-              <SwiperSlide>Slide 6</SwiperSlide>
-              <SwiperSlide>Slide 7</SwiperSlide>
-              <SwiperSlide>Slide 8</SwiperSlide>
-              <SwiperSlide>Slide 9</SwiperSlide>
-            </Swiper> */}
           </div>
         </div>
       </div>

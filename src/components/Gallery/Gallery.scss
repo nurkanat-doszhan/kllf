@@ -14,6 +14,15 @@
     // .swiper-button-prev {
     //   left: var(--swiper-navigation-sides-offset,2px);
     // }
+    // overflow: auto;
+    &::before,
+    &::after {
+        content: ".";    
+        display: block;    
+        height: 0;    
+        overflow: hidden; 
+    }
+    &::after { clear: both; }
 
     .swiper-wrapper {
       align-items: center;
