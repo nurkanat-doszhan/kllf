@@ -21,22 +21,16 @@ const Header = () => {
         <div className={style.wrap}>
           <nav>
             <ul>
-              <li className={style.active}>Главная</li>
-              {/* <li><Link to="/">Главная</Link></li> */}
-              <li>Турнирная таблица</li>
-              {/* <li><Link to="/blogs">Турнирная таблица</Link></li> */}
-              <li>Расписание</li>
-              {/* <li><Link to="/contact">Расписание</Link></li> */}
-              <li>Статистика игроков</li>
-              {/* <li><Link to="/contact">Статистика игроков</Link></li> */}
-              <li>Галерея</li>
-              {/* <li><Link to="/contact">Галерея</Link></li> */}
-              <li>EMF</li>
-              {/* <li><Link to="/contact">EMF</Link></li> */}
-              <li>О Нас</li>
-              {/* <li><Link to="/contact">О Нас</Link></li> */}
-              <li>Отзывы</li>
-              {/* <li><Link to="/contact">Отзывы</Link></li> */}
+              <li className={style.active}>
+                <Link to="/">Главная</Link>
+              </li>
+              <li><Link to="/">Турнирная таблица</Link></li>
+              <li><Link to="/schedule">Расписание</Link></li>
+              <li><Link to="/">Статистика игроков</Link></li>
+              <li><Link to="/">Галерея</Link></li>
+              <li><Link to="/">EMF</Link></li>
+              <li><Link to="/">О Нас</Link></li>
+              <li><Link to="/">Отзывы</Link></li>
             </ul>
           </nav>
           <div className={style.citiesDropdown} onClick={() => {
