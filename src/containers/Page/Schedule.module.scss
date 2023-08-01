@@ -27,6 +27,7 @@
           background-color: #FBFBFD;
           padding: 30px 0;
           table {
+            display: none;
             width: 100%;
             background-color: #FBFBFD;
             td {
@@ -57,6 +58,81 @@
                   }
                   &:last-child {
                     padding-left: 30px;
+                  }
+                }
+              }
+            }
+          }
+          .tablechild {
+            &>div {
+              text-align: center;
+            }
+            .left {
+              width: 20%;
+            }
+            .center {
+              width: 60%;
+            }
+            .right {
+              width: 20%;
+            }
+            .thead {
+              display: flex;
+              padding-bottom: 21px;
+              font-size: 24px;
+              font-family: 'Gilroy-Regular';
+              text-transform: uppercase;
+              color: #A8ADB7;
+            }
+            .tbody .td {
+              display: flex;
+              min-height: 64px;
+              border-top: 1px solid #cacaca;
+              &:nth-child(odd) {
+                background-color: #F2F2F7;
+              }
+              &:first-child {
+                display: flex;
+                color: #A8ADB7;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                // border-top: 1px solid #cacaca;
+              }
+              &:last-child {
+                border-bottom: 1px solid #cacaca;
+              }
+              .left, .right {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .center {
+                display: flex;
+                align-items: center;
+                .first {
+                  width: 50%;
+                  text-align: right;
+                  display: flex;
+                  align-items: center;
+                  justify-content: end;
+                  .text {
+                    margin-right: 20px;
+                  }
+                }
+                .vs {
+                  width: 50px;
+                  font-family: 'Gilroy-Bold';
+                  font-size: 24px;
+                }
+                .second {
+                  width: 50%;
+                  text-align: left;
+                  display: flex;
+                  align-items: center;
+                  justify-content: start;
+                  .text {
+                    margin-left: 20px;
                   }
                 }
               }
